@@ -1,6 +1,6 @@
-// This is the initial array.
-	var topics = ["New Girl", "The Office", "Game of Thrones", "Greys Anatomy", "Anne with an E", "Breaking Bad", "Stranger Things", "House of Cards", "The Crown", "Mindhunter"];
-    var tvImage = "";
+
+var topics = ["New Girl", "The Office", "Game of Thrones", "Greys Anatomy", "Anne with an E", "Breaking Bad", "Stranger Things", "House of Cards", "The Crown", "Mindhunter"];
+var tvImage = "";
 
 function showButtons () {
     $("#buttonItems").empty();
