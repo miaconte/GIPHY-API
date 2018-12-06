@@ -33,9 +33,9 @@ $("#addyours").on("click", function(event) {
             topics.push(tvShow);
             showButtons(); }
         else if (response.pagination.total_count === 0) {
-            $("#entry").html(" Sorry, there were no results for this.  Please try again."); }
-        else if (response.pagination.total_count === 1) { $("#entry").html(" Sorry, there was only 1 result for this.  Please try again."); }
-        else { $("#entry").html(" Sorry, there were only " + response.pagination.total_count + " results for this.  Please try again."); }
+            $("#entry").html(" Sorry, no results."); }
+        else if (response.pagination.total_count === 1) { $("#entry").html(" We didn't find much on that one, try another."); }
+        else { $("#entry").html(" Sorry, there were only " + response.pagination.total_count + " result, try another?"); }
         $("#subInput").val("");
         });
 
