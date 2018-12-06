@@ -65,8 +65,7 @@ function display() {
             var rating = "Rating: " + (response.data[j].rating).toUpperCase();
             var tvImage = $("<img>");
             
-            // This changes the text color of ratings to green so it can be seen against the show background image.
-            $("#ratings").css("color", "green");
+            $("#ratings").css("color", "maroon");
 
             // This creates a new div for the rating so that it maintains the gifs size
             var ratingDiv = $("<div id='ratingDiv'>" + rating + "</div>");
